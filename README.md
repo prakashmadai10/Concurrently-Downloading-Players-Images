@@ -1,6 +1,6 @@
 # FootyRenders Image Downloader
 
-This Python script allows you to download HD images of football players from the FootyRenders website. The script utilizes concurrent processing to efficiently retrieve player details from multiple pages and then download the corresponding high-resolution images concurrently.
+This Python script allows you to download HD images of football players from the FootyRenders website (https://www.footyrenders.com/premier-league/). The script utilizes concurrent processing to efficiently retrieve player details from multiple pages and then download the corresponding high-resolution images concurrently.
 
 ## Prerequisites
 
