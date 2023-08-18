@@ -50,7 +50,7 @@ Here's a brief explanation of how the concurrent.futures module works:
 
 By utilizing the concurrent.futures module, you can achieve concurrent execution of tasks, which can lead to improved performance and reduced execution time.
 
-7. After execution, the script will have downloaded all the HD images of football players to the `downloaded_images` directory.
+6. After execution, the script will have downloaded all the HD images of football players to the `downloaded_images` directory.
 
 ## Customization
 
