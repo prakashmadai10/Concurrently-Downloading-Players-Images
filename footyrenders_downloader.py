@@ -108,6 +108,13 @@ def process_url(url):
 
 
 if __name__ == "__main__":
+
+    '''
+    session = requests.Session() creates a persistent session object using the requests library. 
+    A session object allows you to persist certain parameters across multiple HTTP requests, such as cookies, headers, and connection pooling. 
+    This can be particularly useful when making multiple requests to the same website, as it can improve performance and maintain state between requests.
+    '''
+
     session = requests.Session()
 
     combined_details = []
