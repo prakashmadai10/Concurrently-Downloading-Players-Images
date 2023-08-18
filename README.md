@@ -38,7 +38,19 @@ python footyrenders_downloader.py
 
 5. In the main section of the script, the `concurrent.futures.ThreadPoolExecutor()` is used to concurrently process the Premier League pages and player pages. This significantly improves performance by utilizing multiple threads.
 
-6. After execution, the script will have downloaded all the HD images of football players to the `downloaded_images` directory.
+The concurrent.futures module, which provides a high-level interface for asynchronously executing functions using threads or processes. 
+
+Here's a brief explanation of how the concurrent.futures module works:
+
+5.1. ThreadPoolExecutor: This class provides an interface for creating and managing a pool of worker threads. It's useful for parallelizing tasks that are I/O-bound, such as making network requests or downloading files.
+
+5.2. executor.submit(): This method schedules a callable (function) to be executed by the pool of workers. It returns a Future object representing the result of the computation.
+
+5.3. executor.map(): This function applies a given function to each item in an iterable concurrently, distributing the work among the workers in the executor. It returns an iterator of Future objects.
+
+By utilizing the concurrent.futures module, you can achieve concurrent execution of tasks, which can lead to improved performance and reduced execution time.
+
+7. After execution, the script will have downloaded all the HD images of football players to the `downloaded_images` directory.
 
 ## Customization
 
